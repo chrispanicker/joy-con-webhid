@@ -32,3 +32,7 @@ function accelerationTest(num){
   circ.style.backgroundColor = "rgb(" + colorX + ", " + colorY + ", " + colorZ + ")";
 }
 
+function textChange(num){
+    //nothing should happen here, just making it easier so both pages can run
+}
+

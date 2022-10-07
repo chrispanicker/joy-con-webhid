@@ -30,6 +30,7 @@ const visualize = (joyCon, packet) => {
   } = packet;
 
   accelerationTest(orientation);
+  textChange(orientation);
   if (joyCon instanceof JoyConLeft) {
     rootStyle.setProperty('--left-alpha', `${orientation.alpha}deg`);
     rootStyle.setProperty('--left-beta', `${orientation.beta}deg`);
